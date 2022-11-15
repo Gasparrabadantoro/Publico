@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+entorno: curso LENG MARCAS
+autor: Carlos Boni
+fecha: Octubre 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<!-- polyfill para soportar CSS3 Media Queries en MS explorer viejos -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	  <![endif]-->
+	  
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>HTML - modelo de partida</title>
+	
+	<!-- una fuente de Google, mejor en CSS -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	<link href="https://miweb.com/00-modelo.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.css" rel="stylesheet" type="text/css"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+
+	<!-- Mejor en fichero externo; solo aquellos estilos que solo aplican a esta pagina -->
+    <style>
+		* {
+			font-family: 'Nunito', sans-serif;
+		}
+		
+		body {
+			background: rgba(0, 0, 128, 0.1); /* Azul al 10% */
+		}
+	</style>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>HTML - modelo de partida</h1>
+		<h2> recordar actualizar el header y el titulo de la etiqueta </h2>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido principal de la pagina -->
+	<main>
+		<article>
+			<h2>Titulo de este articulo</h2>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga doloribus quasi tenetur, praesentium cumque minus neque fugiat quo tempora, nostrum, reprehenderit et optio voluptatibus est maxime temporibus provident alias. Magnam.</p>
+		</article>
+		
+        <!-- aside se usa para contenido complementario y generalmente se muestra como una columna lateral pero podemos darle estilo -->
+		<aside></aside>
+
+	</main>
+
+	<!-- contenido secundario de la página -->
+    <article>
+		<h3>Titulo de articulo menos importante</h3>
+		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, velit aut non, voluptas quia natus nesciunt minus dolor ea possimus repellat voluptates alias doloribus repudiandae fugit distinctio, iusto quas in!</p>
+	</article>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2021 <a href="https://carlosboni.com" target="_blank">Prof. Carlos Boni</a></div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+elementos Li = esos elementos tiene que estar dentros de  de listas dentro de un ul o ul
+
+Style= Va siempre en el head 
+
+p no son contenedores, van siempre dentro del div 
+
+Span y mark ( dentro de hojas ) 
+
+header antes del footer ( no le gusta a google que no sea asi)
+
+los H-1 para los titulos
+
+h2 para el contenido 
+
+cerrar etiquetas ( etiquetas apertura y cierre) 
+
+Para validar un código 
+
+PON COMENTARIOS - poner nombre uso y fecha 
+
+usar border-box- box sizing 50 50 para que cuadre todo -
+
+validator.w3.org 
+

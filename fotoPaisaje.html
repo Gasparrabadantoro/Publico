@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Responsive de un Paisaje</title>
+    <style>
+        #portaPaisaje {
+            width: 450px;
+            height: 250px;
+            background-color: lightpink;
+            display: block;
+        }
+
+        #fotoPaisaje {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+
+        @media screen and (orientation:portrait) {
+            #portaPaisaje {
+                width: 250px;
+                height: 450px;
+                background-color: cyan;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <picture id="portaPaisaje">
+
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./grande-72dpi-80calidad.heic" type="image/heic">
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./grande-72dpi-80calidad.webp" type="image/webp">
+        <source media="(orientation: landscape) and (min-width: 1201px)" srcset="./grande-72dpi-80calidad.jpg" type="image/jpeg">
+        <source media="(orientation: portrait) and (min-width:901px)" srcset="nombre-foto-grande.heic" type="image/heic">
+        <source media="(orientation: portrait) and (min-width:901px)" srcset="nombre-foto-grande.webp" type="image/webp">
+        <source media="(orientation: portrait) and (min-width:901px)" srcset="nombre-foto-grande.jpg" type="image/jpg">
+
+        <img 
+            id="fotoPaisaje" 
+            alt="Foto de un paisaje" 
+            title="Un paisaje conocido"           
+            src="grande-72dpi-80calidad.jpg" />
+    </picture>
+
+    <!--  escalado de imágenes responsivas
+
+        horizontales   verticales
+grande    ancho 1920      alto 1200
+mediana   ancho 1200      alto 900
+pequeña   ancho 900       alto 600 -->
+
+
+</body>
+
+</html>

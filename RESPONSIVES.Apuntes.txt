@@ -1,0 +1,22 @@
+https://developer.mozilla.org/es/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+
+responsives 
+
+Allow images from third-party sites
+
+loading - si el broser carga rapidamente o espera a que se cumpla condición (defer)
+
+sizes especificar imagenes
+
+src, de donde sale la imagen
+
+srcet especificar una lista de imageenes para cararlas en distintas situaciones (IMPORTATISIMO) 
+
+min width ( empieza con el valor  mas grande)
+
+max width ( Empieza con el valor mas  pequeña)
+
+
+1920 x1280hecho   800 x1200
+1200x 800  hecho  600 x900
+900x 600     400x 600

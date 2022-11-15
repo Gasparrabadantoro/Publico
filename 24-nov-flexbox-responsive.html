@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de repaso flexbox y picture</title>
+    <style>
+       
+        #contenedor {
+            display:flex;
+            flex-direction: column;
+        }
+       
+       #cabecera, #pie {
+            background-color:black;
+            color:white;
+       }
+
+        #cabecera {
+            height:20vh;
+            display:flex;
+            flex-direction:row;
+            justify-content:space-between;
+            align-items:center;
+            padding-left:20px;
+            padding-right:20px;
+        }
+        #contenido {
+            min-height:400px;
+            display:flex;
+            flex-direction:row;
+        }
+        #columna {
+            background-color:lightgray;
+            width:20%;
+            min-width:150px;
+        }
+        #pie {
+            height: 10vh;
+        }
+        @media screen and (orientation:portrait) and (max-width:380px) {
+            #contenido {
+                flex-direction:column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="cabecera">
+            <div>LOGO</div>
+            <div>TITULO</div>
+            <div>MENU</div>
+        </div>
+        <div id="contenido">
+            <div id="columna">COLUMNA</div>
+            <div>
+                <h2>TEXTO PRINCIPAL</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium hic aut illo dolor ipsam unde nihil ad quod suscipit, sapiente sequi voluptate ipsa est nobis alias tempore animi atque sed.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eaque id enim dolorem iusto iste assumenda, amet modi. Facere totam cum placeat nostrum officiis dolor quos dignissimos quod tenetur officia.</p>
+            </div>
+        </div>
+        <div id="pie">PIE</div>
+
+
+    </div>
+
+    
+</body>
+</html>

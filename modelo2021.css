@@ -1,0 +1,137 @@
+/*
+lenguaje: CSS
+web o pagina:
+entorno: 
+autor: Prof. Carlos Boni
+fecha: Agosto 2021
+RECORDAR:
+en caso de conflictos se aplica el estilo que se define Ãºltimo,
+o sea al final de este archivo o en la misma pagina html
+
+Se incluyen los principales SELECTORES SIMPLES; hay mÃ¡s combinaciones...
+
+*/
+
+:root {
+    --textoamarillo: rgb(248, 236, 66);
+    --azulclaro: #e6f2ff;
+    --fondoparrafo: rgba(0, 0, 0, 0.15);
+    --destacado: rgb(0,188,212);    
+  }
+  
+  /* montserrat-regular - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../resurser/montserrat-v18-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+            url('../resurser/montserrat-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('../resurser/montserrat-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('../resurser/montserrat-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+            url('../resurser/montserrat-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('../resurser/montserrat-v18-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  
+  /* crimson-text-regular - latin */
+  @font-face {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url('../resurser/crimson-text-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../resurser/crimson-text-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../resurser/crimson-text-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../resurser/crimson-text-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../resurser/crimson-text-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../resurser/crimson-text-v11-latin-regular.svg#CrimsonText') format('svg'); /* Legacy iOS */
+  }
+  
+  
+  
+  * {
+       /* estilos por defecto para TODOS los elementos de la página; */
+      /* estilo:valor; */
+      font-family: 'Nunito', sans-serif;
+      text-transform:none;
+      box-sizing:border-box;
+      margin:0px;
+      padding:0px;
+  }
+  
+  body {
+      background: var(--azulclaro); /* Azul al 10% */
+  }
+  
+  body, p {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  div {
+    /* estilos para todos los elementos <div>; */
+    /* estilo:valor; */
+    
+    /* box-sizing:border-box  incluye en las dimensiones de un elemento el espacio del padding y del border. */
+    /* display:flex   da la misma altura a todos los elementos que están en el mismo DIV */
+  }
+  
+  .claseUno {
+    /* estilos para todos los elementos que son de la clase .claseUno; */
+    /* estilo:valor; */
+  }
+  
+  .claseUno.claseDos {
+    /* estilos para todos los elementos que son de la clase .claseUno y .claseDos;
+       NO hay espacio entre ambos selectores  */
+    /* estilo:valor; */
+  }
+  
+  .claseUno .claseDos {
+    /* estilos para todos los elementos de .claseDos que descienden de uno de .claseUno;
+       HAY UN espacio entre ambos selectores  */
+    /* estilo:valor; */
+  }
+  
+  #esteElemento {
+    /* estilos para el único elemento identificado con este #esteElemento; */
+    /* estilo:valor; */
+  }
+  
+  p.claseUno {
+    /* estilos para todos los elementos <p> que son de la clase .claseUno; */
+    /* estilo:valor; */
+  }
+  
+  p,div {
+    /* estilos para todos los elementos que sean <p> o <div>; */
+    /* estilo:valor; */
+  }
+  
+  div > p {
+    /* estilos para todos los elementos que sean <p> que estén dentro (sean hijos de) un <div>; */
+    /* estilo:valor; */
+  }
+  
+  h1 + p {
+    /* estilos para todos los elementos que sean <p> que sean hermanos y estén inmediantamente después de <h1>; */
+    /* estilo:valor; */
+  }
+  
+  /*
+  
+  pseudoclases, asignarles estilos en este orden llamado LVHA:
+     :link — :visited — :hover — :active.
+     
+  Más selectores y documentación:
+  pseudo-clases: https://www.w3schools.com/css/css_pseudo_classes.asp
+  pseudo-elementos: https://www.w3schools.com/css/css_pseudo_elements.asp
+  pseudo-atributos: https://www.w3schools.com/css/css_attribute_selectors.asp
+  formularios: https://www.w3schools.com/css/css_form.asp
+  posicionamiento: https://www.w3schools.com/css/css_positioning.asp
+  selectores: https://www.w3schools.com/cssref/css_selectors.asp
+  */
+  
+  

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clases y variables </title>
+    <link  href="dam.css"rel="stylesheet">
+    <style>
+
+        :root{
+            --colfuente:rgb(206, 63, 235);
+            --colfuente:red;
+            --tamNormal:2vw;
+        }
+
+        p{
+
+            color:var(--colfuente);
+            font-size:var(--tannormal);
+        }
+        h1{
+            font-size:calc(20px + var(--tannormal));
+        }
+       .destacados{
+        color: aqua;
+       }
+       
+        
+        #id2,h1{
+            color: aqua;
+        }
+        #trabajo{
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="destacados">
+Cv Gaspar Rabadán Toro
+        </h1>
+        <p>
+Actualizado a <span class="cursivas">25/10/22</span>
+        </p>
+
+    </header>
+    
+    <main>
+        <!--aqui va lo mas iportante de esta pagina -->
+        <h1>Perfil profesional </h1>
+        <h2>Gaspar Rabadán Toro</h2>
+
+        <p>
+Programador Unity-<span id="trabajo" class="destacados">Technical Artist-</span><span>Director Creativo</span>
+        </p>
+
+    </main>
+<section>
+    <h2>Trabajos</h2>
+</section>
+<section>
+    Estudios
+</section>
+
+<article>
+<h3>
+EXPERIENCIA LABORAL 
+</h3>
+<p>
+
+</p>
+</article>
+<h3 id="id2">
+    ESTUDIOS 
+</h3>
+
+
+</section>
+
+<footer>
+    <nav>
+        <!--Redes sociales-->
+        <li>
+            linkedin
+        </li>
+        <li>Github</li>
+        
+    </nav>
+
+</footer>        
+    </main>
+</body>
+</html>
