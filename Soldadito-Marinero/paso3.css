@@ -1,0 +1,54 @@
+
+
+
+#oferta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    display: none;
+}
+
+#oferta p {
+    display: table-cell;
+    color: blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#ver {
+    display: block;
+}
+
+#ocultar {
+    display: none;
+}
+
+/* vamos a poner un hover para que cuando pases el rato se resalte en algun culor
+
+*/ 
+
+div :hover{
+
+    background-color: aqua;
+
+}
+
+/* paso 3 vamos a duplicar el tamaño de la primera letra*/ 
+
+div:first-letter{
+    float: left;
+  font-size: 5.5em;
+  line-height: 1;
+  margin: 0.2rem;
+  padding: 1rem;
+ 
+
+  
+}

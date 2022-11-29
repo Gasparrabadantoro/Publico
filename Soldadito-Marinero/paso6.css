@@ -1,0 +1,89 @@
+
+
+
+#oferta {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    display: none;
+}
+
+#oferta p {
+    display: table-cell;
+    color: blue;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#ver {
+    display: block;
+}
+
+#ocultar {
+    display: none;
+}
+
+/* vamos a poner un hover para que cuando pases el rato se resalte en algun culor
+
+*/ 
+
+div:hover{
+
+    background-color: aqua;
+
+}
+
+/* paso 3 vamos a duplicar el tamaño de la primera letra*/ 
+
+div:first-letter{
+    float: left;
+  font-size: 3.5em;
+  line-height: 1;
+  margin: 0.2rem;
+  padding: 1rem;
+ 
+
+  
+}
+
+/*Paso 4 hacer zoom de 1.2 al parrafo que pinchemos 
+ejemplo 
+#my{
+zoom: 100%;
+}*/ 
+
+div:active{
+    zoom: 200%;
+}
+
+/* paso 5  ponemos en el html un parrafo inmediatamente debajo del titulo con visibility:none para que no se vea. que diga
+: Fito& los Fitipaldis - 
+ponemos body mayor que p,nth child para que coja el espacio que queremos y haga algo */
+
+body>p:nth-child(2){
+
+ 
+    visibility:hidden;
+
+}
+
+
+
+/*paso 6 poner en cursivas en el titulo de la canción con target */
+
+body>p:target{
+    color: red;
+    visibility: visible;
+    font-style: italic;
+    
+    text-decoration: underline;
+}
+
+ 
