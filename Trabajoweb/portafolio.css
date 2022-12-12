@@ -1,0 +1,166 @@
+
+  :root{
+    --colfuente:rgb(206, 63, 235);
+    --colfuente:rgb(209, 97, 97);
+    --tamNormal:2vw;
+}
+
+*{
+   
+    background-color: rgb(108, 169, 238);
+}
+
+
+.perfilprofesional{
+    justify-content:center;
+color: rgb(20, 0, 20);
+background-color: rgba(127, 126, 128, 0.116);
+width: 1900;
+
+}
+.menu > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+   
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid;
+    border-color: black;
+    margin: 2px;
+    transition: all .3s;
+
+    background:linear-gradient(rgb(10, 218, 255),rgb(121, 11, 106));
+
+}
+
+.menu a:hover{
+
+    font-size: 21px;
+    color: rgb(216, 188, 243);
+
+}
+
+
+
+h3{
+    font-size:calc(20px + var(--tannormal));
+}
+.destacados{
+color: rgb(48, 38, 59);
+
+}
+.Titulo{
+
+position: sticky;
+padding: 1vh;
+display: flex;
+
+justify-content:center;
+color: rgb(110, 29, 131);
+
+
+}
+
+#id2,h1{
+    color: rgb(36, 18, 65);
+}
+#trabajo{
+    color: rgb(33, 2, 63);
+}
+.bannerFoto{
+    margin-top: 0;
+    width: 100%;
+}
+
+#fotos{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fotoResponsive {
+   
+    width: 48%;
+    height: auto;
+    background-color: rgb(36, 32, 32);
+    display:block;
+    margin: 0 10px 10px 10px;
+}
+.fotoAltura{
+    width: 48%;
+    height: auto;
+
+}
+.foto{
+
+    border: solid 1px;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+blockquote p:first-child{
+    font-style: italic;
+}
+blockquote p:last-child{
+    margin-top: 0;
+    margin-left: 5px;
+    font-size: small;
+    font-style: italic;
+}
+
+
+
+footer {
+   
+    margin-left: 10px;
+    font-size: small;
+
+}
+@media all and (orientation:portrait) {
+    /* Ahi tienes que cambiar el foto responsives por la clase que le ponga al picture de mi foto(curriculum)*/
+    /*.fotoResponsive {
+        width: 200px;
+        height: 400px;
+      
+    }*/
+}
+@media screen and (max-width:1030px) {
+   * {
+        background-color: rgb(55, 95, 141);
+        
+    }
+    .fotoResponsive{
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:650px) {
+    *{
+        background-color: rgb(25, 51, 80);
+        color: white;
+    }
+    .fotoResponsive{
+        width: 80%;
+        height: auto;
+    }
+}
+
