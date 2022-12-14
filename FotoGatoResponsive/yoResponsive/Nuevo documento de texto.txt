@@ -1,0 +1,3 @@
+grande 800 x1200
+mediana 600x900
+pequ 400x600
