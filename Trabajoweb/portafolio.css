@@ -11,11 +11,14 @@
 }
 
 
-.perfilprofesional{
+.perfilprofesional:hover{
+ 
     justify-content:center;
-color: rgb(20, 0, 20);
-background-color: rgba(127, 126, 128, 0.116);
+color: rgb(9, 2, 43);
+color: aliceblue;
+  
 width: 1900;
+font-size:24px
 
 }
 .menu > ul {
@@ -62,10 +65,9 @@ width: 1900;
 h3{
     font-size:calc(20px + var(--tannormal));
 }
-.destacados{
-color: rgb(48, 38, 59);
 
-}
+
+
 .Titulo{
 
 position: sticky;
@@ -73,16 +75,36 @@ padding: 1vh;
 display: flex;
 
 justify-content:center;
-color: rgb(110, 29, 131);
+color: #590572;
+text-shadow: 3px 3px 2px rgb(109, 96, 112);
+
+}
+
+#curriculum:hover{
+    color: black;
+    color: rgb(254, 253, 255);
+    font-size:24px
+
 
 
 }
 
+#frasesita:hover{
+  
+    color: rgb(254, 253, 255);
+    font-size:24px
+
+}
 #id2,h1{
     color: rgb(36, 18, 65);
 }
 #trabajo{
-    color: rgb(33, 2, 63);
+    text-align: center;
+ background-color: rgba(10, 0, 0, 0.205);
+ color: black;
+ color: aliceblue;
+ font-size:24px
+
 }
 .bannerFoto{
     margin-top: 0;
@@ -145,14 +167,6 @@ footer {
     font-size: small;
 
 }
-@media all and (orientation:portrait) {
-    /* Ahi tienes que cambiar el foto responsives por la clase que le ponga al picture de mi foto(curriculum)*/
-    /*.fotoResponsive {
-        width: 200px;
-        height: 400px;
-      
-    }*/
-}
 @media screen and (max-width:1030px) {
    * {
         background-color: rgb(55, 95, 141);
@@ -162,6 +176,11 @@ footer {
         width: 80%;
         height: auto;
     }
+    .Titulo{
+        color: #b591c0;
+        text-shadow: 3px 3px 2px rgb(45, 10, 53);
+        
+        }
 }
 
 @media screen and (max-width:650px) {
@@ -173,5 +192,59 @@ footer {
         width: 80%;
         height: auto;
     }
+    .Titulo{
+        color: #f1e4f5;
+        text-shadow: 3px 3px 2px rgb(45, 10, 53);
+        
+        }
 }
+
+
+        
+/*aqui va la otra wea  */
+#portaFoto {
+    display:block;
+    margin:auto;
+    width: 80vh;
+    height: 80vh;
+    background-color: lightpink;
+    display: block;
+   
+}
+
+#Foto {
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+/*         Ahora me aseguro que el portarretratos no sea mayor
+que la foto más grande
+para evitar el pixelado */
+
+@media screen and (orientation:landscape) {
+    #portaFoto {
+        max-width: 1920px;
+        max-height: 1280px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    #portaFoto {
+        max-width: 800px;
+        max-height: 1200px;
+    }
+}
+   
+
+  
+
+
+
+   
+
+   
+
 
