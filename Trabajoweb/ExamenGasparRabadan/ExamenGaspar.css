@@ -80,34 +80,7 @@ div{
         opacity:3;
         
     }
-    .campanilla{
-        margin-left: 20%;
-     top: 40;
-     right: 42%;
-     width: 20%;
-    height: 35%;
-    bottom: 60%;
-    justify-content: center;
-   object-fit: contain;
-   object-position: 20% 10%  ;
-   transition: all 1.5s ease;
-   z-index: 0;
-
-    }
-    .Papanoel{
-        margin-left: 20%;
-     top: 30;
-     right: 20%;
-     width: 20%;
-    height: 40%;
-    justify-content: center;
-   object-fit: contain;
-   object-position: 20% 10%  ;
-   transition: all 1.5s ease;
-   z-index: 0;
-   
-
-    }
+    
  img{
      position: absolute;   
      width: 100%;
