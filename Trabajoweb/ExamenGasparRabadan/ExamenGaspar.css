@@ -122,7 +122,7 @@ div{
     }       
 
     @media all and(oritentation:landscape) {
-        img,div{
+        .campanilla,.Papanoel,img,div{
             width: 40vh;
             margin-left:calc(50 vw-35vh);
         }
