@@ -8,9 +8,10 @@
 			
 			<body>
 				<h2>Cancion:</h2>
-				<h1><xsl:value-of select="titulo"/></h1>
+				
 				<h1>cancion/titulo-<xsl:value-of select="cancion/titulo"/></h1>
-				<h1>cancion/titulo-<xsl:value-of select="cancion/titulo"/></h1>
+				<p>(Autor:<xsl:value-of select="cancion/autor"/>)</p>
+				
 			</body>
 		</html>
 		
