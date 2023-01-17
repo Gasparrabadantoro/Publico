@@ -21,6 +21,7 @@
 						
 	</estrofa>
 	<estrofa tipo="estribillo">
+		<orden>2</orden>
 			<verso>
 				Soldadito marinero conociste a una sirena
 			</verso>
@@ -35,9 +36,10 @@
 						</verso>
 							
 	</estrofa>
-	<estrofa>
+	<estrofa tipo="normal">
+		<orden>1</orden>
 			<verso>
-				Él quería cruzar los mares y olvidar a su sirena
+				1Él quería cruzar los mares y olvidar a su sirena
 			</verso>
 				<verso>
 					La verdad, no fue difícil cuando conoció a Mariela
@@ -51,8 +53,9 @@
 							
 	</estrofa>
 	<estrofa tipo="estribillo">
+		<orden>3</orden>
 			<verso>
-				Soldadito marinero conociste a una sirena
+				3Soldadito marinero conociste a una sirena
 			</verso>
 				<verso>
 					De esas que dicen te quiero si ven la cartera llena
