@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="OyeComoVa.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="OyeComoVa.xsd">
+	<titulo>Oye Como Va</titulo>
+	<autor>Tito Puente</autor>
+	<letra>
+		<estrofa tipo="estribillo">
+			
+			<verso>Oye como va, mi ritmo</verso>
+			<verso>Bueno pa' goza', mulata</verso>
+			<verso>Oye como va, mi ritmo</verso>
+			<verso>Bueno pa' goza', mulata</verso>			
+		</estrofa>
+		<estrofa tipo="normal">
+			
+			<verso>Si tú no sabes bailar</verso>
+			<verso>Si estás peleado con el son</verso>
+			<verso>Sígueme marcando el paso</verso>
+			<verso>Que te aseguro que es de lo más sabrosón</verso>			
+		</estrofa>
+		<estrofa tipo="normal">
+			
+			<verso>Voy pa' la rumba, la rumba, la rumba</verso>
+			<verso>Porque me llama, me llama, me llama</verso>
+			<verso>Y necesito que suene el coro</verso>
+			<verso>Para que se ponga a vacilar!</verso>
+			<verso>Y te lo digo</verso>		
+		</estrofa>
+		<estrofa tipo="estribillo">
+			
+			<verso>Oye como va, mi ritmo</verso>
+			<verso>Bueno pa' goza', mulata</verso>
+			<verso>Oye como ya, mi ritmo</verso>
+			<verso>Bueno pa' goza', mulata</verso>			
+		</estrofa>
+		<estrofa tipo="normal">
+			
+			<verso>Voy pa' la rumba, la rumba, la rumba</verso>
+			<verso>Porque me llama, me llama, me llama</verso>
+			<verso>Y necesito que suene el coro</verso>
+			<verso>Para que se ponga a vacilar!</verso>
+			<verso>Y te lo digo</verso>		
+		</estrofa>
+	</letra>
+	<interprete>Celia Cruz </interprete>
+</cancion>

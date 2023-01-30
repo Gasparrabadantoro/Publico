@@ -1,0 +1,15 @@
+
+body{
+    counter-reset: verso;
+
+}
+
+p::before{
+    counter-increment: verso;
+    content: counter(verso) "-";
+}
+
+span{
+    color: blue;
+    background-color: yellow;
+}
