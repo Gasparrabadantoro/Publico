@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="cancion">
+        <xs:complexType mixed="true">
+            <xs:choice minOccurs="0" maxOccurs="unbounded">
+                <xs:element ref="autor"/>
+                <xs:element ref="letra"/>
+                <xs:element ref="titulo"/>
+            </xs:choice>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="autor">
+        <xs:complexType/>
+    </xs:element>
+    <xs:element name="letra">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="estrofa"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="estrofa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="verso"/>
+            </xs:sequence>
+            <xs:attribute name="tipo" type="xs:NCName"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="verso" type="xs:string"/>
+    <xs:element name="titulo">
+        <xs:complexType/>
+    </xs:element>
+</xs:schema>

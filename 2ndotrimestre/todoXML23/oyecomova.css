@@ -1,0 +1,9 @@
+
+body{
+    counter-reset: section;
+}
+
+span{
+    color: blue;
+    background-color: yellow;
+}

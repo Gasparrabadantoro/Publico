@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <videojuegos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/XAMPP/htdocs/profesorcarlos.es/2022/LM-DAW/xml/videos-xsd-subcampos-restringidos-pattern.xsd">
+  <videojuego>
+  <nombre>SuperMario5</nombre>
+  <cod>2399</cod>
+  <consola>Nintendo X</consola>
+  <precio>
+    <valor>50</valor>
+    <moneda>$</moneda>
+  </precio>
+  <web>www.smbros.biz</web>
+ </videojuego>
+ <videojuego>
+  <nombre>Formula1</nombre>
+  <cod>2333</cod>
+  <consola>Xbox 360</consola>
+  <precio>
+   <valor>20</valor>
+   <moneda>€</moneda>
+  </precio>
+  <web>www.f1games.com</web>
+ </videojuego>
+</videojuegos>

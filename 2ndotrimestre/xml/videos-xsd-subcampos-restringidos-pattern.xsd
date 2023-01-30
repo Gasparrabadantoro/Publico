@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="videojuegos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" ref="videojuego"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="videojuego">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="nombre"/>
+                <xs:element ref="cod"/>
+                <xs:element ref="consola"/>
+                <xs:element ref="precio"/>
+                <xs:element ref="web"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="nombre" type="xs:NCName"/>
+    <xs:element name="cod" type="xs:integer"/>
+    <xs:element name="consola" type="xs:string"/>
+    <xs:element name="precio">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="valor"/>
+                <xs:element ref="moneda"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="valor" type="xs:integer"/>
+    <!--<xs:element name="moneda" type="xs:string"/>-->
+    
+    <!--codigo correcto personalizado para validar valores alternativos-->
+
+<xs:element name="moneda">
+  <xs:simpletype>
+    <xs:restriction base="xs:string">
+      <xs:pattern value="$|€"></xs:pattern>
+    </xs:restriction>
+  </xs:simpletype>
+</xs:element>
+<!--fin del codigo personalizado-->
+
+
+     <xs:element name="web" type="xs:NCName"/>
+</xs:schema>

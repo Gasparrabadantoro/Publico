@@ -1,0 +1,1 @@
+Cuando lo pongo en horizontal, las letras se salen, a pesar de que inspeccionandolo no pasa eso.
