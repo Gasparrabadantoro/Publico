@@ -1,0 +1,31 @@
+wpgasparrabadan
+
+contraseña: Admin12345678
+
+wordpress
+
+Contraseña Admin12345678- (wordpress)  
+
+Cosas que va a tener mi hosting 
+
+1 -Hosting (data base, php, apache/iis/nodejs)
+	backup a nivel de servidor 
+2- wp
+3 - tema(no de bloque )
+4- plugin tema hijo - Child Theme Wizzard 
+5- plugin backup - Backup migration 
+6 plugin SEO - Yoast SEO(prolemas)
+7- Configurar wp para SEO
+* Ajustes- Enlaces permanentes
+
+* Elegimos tema de nuetro trabajo 
+Elegimos plantilla de weordpress(tema)
+Revisamos pasos 1 a 7 para nuestro trabajo. 
+8- diseño(css,html,widgets...)
+9- contenidos(entradas,categorias,etiquetas,páginas,menu)
+10- puesta en marcha 
+
+
+- Tema para 
+
+

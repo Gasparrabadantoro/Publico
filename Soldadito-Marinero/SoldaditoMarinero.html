@@ -9,6 +9,19 @@
     
 <link rel="stylesheet" href="./paso6.css">
 </head>
+ <!-- Aqui va lo modal  -->
+<button id="miBoton">Pincha Aqui </button>
+
+
+<div id="Modal" class="modal">
+
+ 
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Hola pincha aqui si quieres ver mas canciones .</p>
+  </div>
+
+</div>
 
 <body>
     <p> <a href="#autor">Soldadito marinero</a> </p>
@@ -45,45 +58,13 @@
 
     </div>
 
-
-    <!-- aquí van los dos botones que usaré para mostrar u ocultar la oferta -->
-    <input id="ver" type="button" onclick="mostrar()" value="+ INFO" />
-    <input id="ocultar" type="button" onclick="ocultar()" value="OCULTAR" />
-
     <div id="oferta">
         <p>Fuente: letras.com<br/>
             Autor: Fito y fitipaldis
         </p>
     </div>
 
-    <script>
-        function ocultar() {
-            /* oculto la oferta */
-            document.getElementById("oferta").style.display = "none";
-
-            /* muestro el botón para volver a ver la oferta */
-            document.getElementById("ver").style.display = "inline-block";
-
-            /* oculto este botón */
-            document.getElementById("ocultar").style.display = "none";
-
-            return;
-        }
-
-        function mostrar() {
-            document.getElementById("oferta").style.display = "table";
-
-            /* muestro el botón para ocultar la oferta */
-            document.getElementById("ocultar").style.display = "inline-block";
-
-            /* oculto este botón */
-            document.getElementById("ver").style.display = "none";
-
-            return;
-        }
-
-
-    </script>
+    
 
 </body>
 

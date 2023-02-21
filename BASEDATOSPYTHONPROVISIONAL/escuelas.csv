@@ -1,0 +1,14 @@
+;;;;;Escuela;;;
+;;;id_escuela;nombre;Direccion;Municipio;;
+;;;;;;;;
+;;;;;;;;
+;;;;;;;;
+;;;Profesor;;;;;
+;Id_profesor;Nombre;Departamento ;año experiencia;fecha_nacimiento;fk_escuela;;
+;;;;;;;;
+;;;;;;;;
+;;;Alumno;;;;;
+id_alumno;Nombre;Escuela;FechaNacimiento;Año/curso;fk_profesor;;;
+;;;;;fk_escuela;;;
+;;;;;;;;
+;;;;;;;;

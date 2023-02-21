@@ -1,0 +1,30 @@
+- Trabajamos con ficheros xml - - - - 
+
+
+  La ponemos o dentro del xamp htdocs- 
+
+Un fichero xml, es un lenguaje de marcas, que tiene solamente "datos". Tiene 2 caracterisitcas: Puede ser bien formado, cuando respeta
+las reglas del lenguaje : Todo etiqueta que se abre se cierra, van anidadas pero no en eslabones, siempre empieza con letra, que sea en 
+minúscula... 
+
+XML _ Comprobar que esta bien formado. 
+
+XSD_ Se usa para definir moldes, para que un programa acepte  (como se genera un ) Esquema, generar esquema XML. 
+Esquema, asocial documento xml- 
+
+Quitar la ruta, y poner solo nombre fichero 
+
+XSL- Sirve para transformar un XML -
+
+Para crearlo: menu archivo, nuevo archivo, hoja estilo Xslt 10-  
+
+Trabaja con template o reglas o plantillas- Definen una accion o serie de pasos, para el elemento que coincide
+
+Cuando creamos un html dentro del xsl,para que las propiedades del css esten presentes. 
+
+Dentro del head, siempre tiene que ir el css.
+
+Y dentro del body y antes de cerrar tenemos que poner el xsl :Appy-templates/ .
+
+div, para aplicar template dentro de los template, (mira la clase porque no te estas enterando bien Gaspar )
+
