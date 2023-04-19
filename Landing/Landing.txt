@@ -1,0 +1,27 @@
+1- Crear una página/ entrada VACIA 
+La llamamos LANDING por ejemplo
+
+2 - una entrada de menú que me permita acceder navegand a esta pagina 
+
+3- elegir/ diseñar nuestra página de landing 
+
+usamos 
+w3schools u otro de los cientos de sitios con ejemplos descargables 
+en html5 y css solamente (que no usen javascrit ni scritp php)
+
+4- (para copiarlo ,usar ver codigo fuente o el inspector )
+
+5- monto esa pagina en local y con la ayuda de VSC o similar me aseguro 
+que se vea bien en mi PC. 
+(Adecuar la URL de mis imagenes). 
+
+6- Adecuar imagenes y estilos. por ejemplo, que la 
+pagina quede contenida, en el viewport sin scroll verticall ni horizontal (wid:100 vh; overflow : none,etc...)
+
+7- volvemos a Wordpress y la pagina Landing le añadimos un bloque de tipo widget html personalizado. 
+
+8- en dicho widget ponemos todo el código del elemento body pero cambiando body por article u otro elemento de display block .
+
+9- Ocultar de la visualicación de la página todos los elementos que no sean del diseño que hemos elegido (menos, siders , footers, etc)
+
+10- Ajustes finales para que se visualice bien nuestra pagina LANDING 

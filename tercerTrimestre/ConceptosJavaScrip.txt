@@ -1,0 +1,8 @@
+const : para declarar contastes 
+parseInt(pront("Ingrese un valor"));
+// ingresa un valor 
+prompt : Mensaje en la pantalla. Por ejeemplo lo de arriba te ingresa un valor y el pront te imprime lo de ingrese un valor. 
+
+let : Forma definir variables
+
+'use strict': Marca error de compilación
