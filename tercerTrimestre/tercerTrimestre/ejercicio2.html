@@ -28,6 +28,22 @@
     </div>
    
 
-    
+    <script>
+        // Bucle for sobre cada fila
+        var altura; 
+for (let i = 0; i < altura; i++) {
+    let fila = '';
+
+    // Bucle for sobre cada columna en cada fila
+    for (let j = 0; j < (i + i) + 1; j++) {
+        // Calculamos si la posición actual debería contener una 'o' o un *
+        if ((i == altura - 1 && (j == 0 || j == 4)) || i == 0) {
+            fila += '*';
+        } else {
+            fila += 'o';
+        }
+    }
+}
+    </script>
 </body>
 </html>
