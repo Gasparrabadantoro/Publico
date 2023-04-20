@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet"type="text/css" href="ejercicio2.css">
+    <title>Document</title>
+</head> 
+
+<body>
+<h1>¿En que posición quiere la piramide?</h1>
+    
+
+    <div class="bloque">
+         <div class="hola1">
+        hola1
+    </div>
+    <div class="hola2">
+        hola2
+    </div>
+    <div class="hola3">
+        hola3
+    </div>
+    <div class="hola4">
+        hola4
+    </div>
+    </div>
+   
+
+    <script>
+
+        var piramide; 
+        
+  
+var numrep = prompt("Introduce numero de repeticiones");
+
+
+let altura = 3;
+            let ancho = 5;
+
+            for (let z = 0; z < altura; z++) {
+                for (hueco = 0; hueco < 20; hueco++) {
+                    document.write('&nbsp');
+                }
+                for(let h = 0; h < ancho; h++){
+                    if(h<=ancho/2-1-z||h>ancho/2+z){
+                        document.write('&nbsp');
+                    }else if (h==0 ||z ==0 || h==ancho-1){
+                        document.write('*');
+                    }else {
+                        document.write('o');
+                }
+            } 
+            document.write('<br/>');
+          }
+  
+
+
+    
+
+    </script>
+</body>
+</html>

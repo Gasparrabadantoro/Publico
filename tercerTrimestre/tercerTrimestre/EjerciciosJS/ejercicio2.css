@@ -29,6 +29,8 @@ body{
 }
 
 .hola3{
+    position: absolute;
+    top: 80%;
     width: 50%;
     height: auto;
     flex-direction: column;
@@ -37,7 +39,9 @@ body{
 }
 
 .hola4{
-    margin-left: auto;
+    position: absolute;
+    top: 80%;
+    left: 49%;
     width: 50%;
     text-align: right;
 

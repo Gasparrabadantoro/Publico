@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenguaje Di marcas </title>
+</head>
+<body>
+   
+    <script>
+        let x = parseInt(prompt("¿Podria ingresar un numero?"));
+        let y = parseInt(prompt("¿Podria ingresar otro número?"));
+
+        for(i=0; i < y; i++) {
+            if (i%8==0){
+                document.write("<br/r>");
+            }
+            document.write(x)
+        }
+    </script>
+    <h2>-  Imprimir una pirámide a partir de la columna 20, de 3 filas por 5 columnas, usando la letra 0.</h1>
+        <script>
+            let altura = 3;
+            let ancho = 5;
+
+            for (let z = 0; z < altura; z++) {
+                for (hueco = 0; hueco < 20; hueco++) {
+                    document.write('&nbsp');
+                }
+                for(let h = 0; h < ancho; h++){
+                    if(h<=ancho/2-1-z||h>ancho/2+z){
+                        document.write('&nbsp');
+                    }else if (h==0 ||z ==0 || h==ancho-1){
+                        document.write('*');
+                    }else {
+                        document.write('o');
+                }
+            } 
+            document.write('<br/>');
+          }
+          </script>
+    </script> 
+</body>
+</html>
