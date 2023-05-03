@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 1px;
+    width: 200px;
+    height: 200px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+
+}
+#winner{
+    font-size: 1.5 ;
+}
+.tablero {
+    padding: 2px;
+    border-color: rgb(118, 3, 211);
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    width: 612px;
+    margin: auto;
+    flex-wrap: wrap;
+}

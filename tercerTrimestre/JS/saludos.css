@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#columna{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vh;
+    height: 100vh;
+}
+
+.fila{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+
+}
+
+.cuadrito{
+    display: table-cell;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    height: 20vh;
+   background-color: aqua;
+}
+
+#fila2{
+    justify-content: center;
+    
+}
